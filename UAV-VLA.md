@@ -15,6 +15,8 @@ This repository includes:
 * Dataset and benchmark details.
 * Code for simulation-based experiments in Mission Planner.
 
+Many VLA and **VLN (Visual Language Navigation)** approaches require large datasets with paired language instructions and agent behavior, but struggle to generalize to new environments and lack a global-scale understanding. Our research focuses on developing systems that generate path plans and execute actions based solely on linguistic instructions and open satellite data, leveraging zero-shot capabilities of powerful models without additional training.
+
 ---
 ### The pipeline of the UAV-VLA system.
 
