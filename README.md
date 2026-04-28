@@ -6,24 +6,24 @@ Vision-Language-Action (VLA) models represent a paradigm shift in drone navigati
 ### Key VLA Models for Drones
 Research in 2025 and 2026 has introduced several specialized VLA models for different aerial tasks:
 
-* RaceVLA: Specifically designed for autonomous racing, this model uses First-Person View (FPV) video and text commands to mimic the high-speed decision-making of human pilots. It outperforms general-purpose models like OpenVLA in motion and semantic generalization.
-* AutoFly: An end-to-end model for navigation in unknown outdoor environments that uses a pseudo-depth encoder to derive spatial features from standard RGB cameras, improving 3D reasoning.
-* DroneVLA: Focuses on aerial manipulation (fetch-and-carry tasks), using VLA for grasping logic while relying on deterministic visual servoing for safe navigation and handover to humans.
+* **RaceVLA**: Specifically designed for autonomous racing, this model uses First-Person View (FPV) video and text commands to mimic the high-speed decision-making of human pilots. It outperforms general-purpose models like OpenVLA in motion and semantic generalization.
+* **AutoFly**: An end-to-end model for navigation in unknown outdoor environments that uses a pseudo-depth encoder to derive spatial features from standard RGB cameras, improving 3D reasoning.
+* **DroneVLA**: Focuses on aerial manipulation (fetch-and-carry tasks), using VLA for grasping logic while relying on deterministic visual servoing for safe navigation and handover to humans.
 * CognitiveDrone: A dual-model framework that separates low-level flight control from high-level cognitive reasoning, significantly improving success rates in complex tasks requiring logical inference.
-* VLA-AN: A lightweight model optimized for onboard deployment on resource-constrained UAVs, achieving high inference throughput and using geometric safety corrections to prevent collisions. 
+* **VLA-AN**: A lightweight model optimized for onboard deployment on resource-constrained UAVs, achieving high inference throughput and using geometric safety corrections to prevent collisions. 
  
 ### Core Technical Challenges
 Implementing VLAs for drones is more difficult than for ground robots due to the "Dynamics Gap": 
  
-* Underactuation: Drones are underactuated systems where thrust and attitude are coupled; small errors in control can lead to crashes.
-* Real-time Constraints: High-speed flight requires extremely low latency (often sub-5 ms inference) to ensure timely navigation updates.
-* Sim-to-Real Gap: Training data from stable, tabletop environments (like Open X-Embodiment) does not easily transfer to the dynamic, 6-DOF movement of aerial flight. 
+* **Underactuatio**n: Drones are underactuated systems where thrust and attitude are coupled; small errors in control can lead to crashes.
+* **Real-time Constraints**: High-speed flight requires extremely low latency (often sub-5 ms inference) to ensure timely navigation updates.
+* **Sim-to-Real Gap**: Training data from stable, tabletop environments (like Open X-Embodiment) does not easily transfer to the dynamic, 6-DOF movement of aerial flight. 
  
 ### Emerging Solutions
 To overcome these challenges, researchers are employing several innovative strategies:
-* Physics-Guided Transfer: Injecting payload-aware mechanisms into the model's sampling process to account for physics during inference.
-* 3D Gaussian Splatting (3D-GS): Used to generate highly realistic synthetic training data to bridge the data domain gap and improve navigation success.
-* Action Chunking: Predicting a sequence of future actions in a single forward pass to improve temporal consistency and smoothness. 
+* **Physics-Guided Transfer**: Injecting payload-aware mechanisms into the model's sampling process to account for physics during inference.
+* **3D Gaussian Splatting (3D-GS)**: Used to generate highly realistic synthetic training data to bridge the data domain gap and improve navigation success.
+* **Action Chunking**: Predicting a sequence of future actions in a single forward pass to improve temporal consistency and smoothness. 
  
 Would you like to explore the codebases and datasets for models like RaceVLA or UAV-VLA to start your own implementation?
 
