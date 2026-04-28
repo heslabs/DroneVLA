@@ -15,7 +15,7 @@ Research in 2025 and 2026 has introduced several specialized VLA models for diff
 ### Core Technical Challenges
 Implementing VLAs for drones is more difficult than for ground robots due to the "Dynamics Gap": 
  
-* **Underactuatio**n: Drones are underactuated systems where thrust and attitude are coupled; small errors in control can lead to crashes.
+* **Underactuation**: Drones are underactuated systems where thrust and attitude are coupled; small errors in control can lead to crashes.
 * **Real-time Constraints**: High-speed flight requires extremely low latency (often sub-5 ms inference) to ensure timely navigation updates.
 * **Sim-to-Real Gap**: Training data from stable, tabletop environments (like Open X-Embodiment) does not easily transfer to the dynamic, 6-DOF movement of aerial flight. 
  
