@@ -18,3 +18,14 @@
 * RaceVLA: VLA-based Racing Drone Navigation with Human-like Behaviour
   * https://arxiv.org/html/2503.02572v1
   * RaceVLA presents an innovative approach for autonomous racing drone navigation by leveraging Visual-Language-Action (VLA) to emulate human-like behavior. This research explores the integration of advanced algorithms that enable drones to adapt their navigation strategies based on the real-time environmental feedback, mimicking the decision-making processes of human pilots. The model, fine-tuned on a collected racing drone dataset, demonstrates strong generalization despite the complexity of the drone racing environments
+
+
+---
+## Core Concepts of VIO Navigation
+
+VIO works by fusing two distinct types of data to determine the device's pose (position and orientation): 
+ 
+Visual Odometry (VO): Cameras track features in the surrounding environment from frame to frame to estimate movement.
+Inertial Measurement Unit (IMU): Sensors like accelerometers and gyroscopes monitor motion, acceleration, and rotation rates.
+Sensor Fusion: Algorithms such asKalman filters integrate these inputs to compensate for each other's weaknesses, such as lighting issues (visual) or sensor bias/drift (inertial). 
+ 
