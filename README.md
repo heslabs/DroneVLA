@@ -25,10 +25,9 @@ To overcome these challenges, researchers are employing several innovative strat
 * **3D Gaussian Splatting (3D-GS)**: Used to generate highly realistic synthetic training data to bridge the data domain gap and improve navigation success.
 * **Action Chunking**: Predicting a sequence of future actions in a single forward pass to improve temporal consistency and smoothness. 
  
-Would you like to explore the codebases and datasets for models like RaceVLA or UAV-VLA to start your own implementation?
 
 ---
-### Examples
+### Codebases and Datasets Examples
 
 You can find the resources for these specialized drone models below. Most of them are built on top of OpenVLA, which is the standard open-source framework for fine-tuning vision-language-action models for robotics. 
  
