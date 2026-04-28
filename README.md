@@ -9,7 +9,7 @@ Research in 2025 and 2026 has introduced several specialized VLA models for diff
 * **RaceVLA**: Specifically designed for autonomous racing, this model uses First-Person View (FPV) video and text commands to mimic the high-speed decision-making of human pilots. It outperforms general-purpose models like OpenVLA in motion and semantic generalization.
 * **AutoFly**: An end-to-end model for navigation in unknown outdoor environments that uses a pseudo-depth encoder to derive spatial features from standard RGB cameras, improving 3D reasoning.
 * **DroneVLA**: Focuses on aerial manipulation (fetch-and-carry tasks), using VLA for grasping logic while relying on deterministic visual servoing for safe navigation and handover to humans.
-* CognitiveDrone: A dual-model framework that separates low-level flight control from high-level cognitive reasoning, significantly improving success rates in complex tasks requiring logical inference.
+* **CognitiveDrone**: A dual-model framework that separates low-level flight control from high-level cognitive reasoning, significantly improving success rates in complex tasks requiring logical inference.
 * **VLA-AN**: A lightweight model optimized for onboard deployment on resource-constrained UAVs, achieving high inference throughput and using geometric safety corrections to prevent collisions. 
  
 ### Core Technical Challenges
