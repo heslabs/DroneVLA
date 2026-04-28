@@ -37,7 +37,7 @@ This is the first VLA specifically designed for racing drones, converting FPV vi
 * Project Page & Code: You can access the code and pretrained weights on the official RaceVLA Project Page.
 * Dataset: The training data, featuring human-piloted racing trajectories, is available on Hugging Face (RaceVLA_dataset). 
 
-### UAV-VLA / UAV-VLPA* (Mission Planning) 
+### UAV-VLA / UAV-VLPA (Mission Planning) 
 These systems focus on high-level mission generation and path planning using satellite imagery and natural language. 
  
 * Codebase: The official repository containing the framework implementation and simulation code is on GitHub at sautenich/uav-vla.
