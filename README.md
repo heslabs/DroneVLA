@@ -23,6 +23,10 @@
 ---
 ## Core Concepts of VIO Navigation
 
+Visual-Inertial Odometry (VIO) camera navigation is a technology that combines data from cameras and Inertial Measurement Units (IMUs) to accurately track the position, orientation, and motion of a device in 3D space. It is essential for navigation in GPS-denied environments—such as indoors, underground, or under tree canopies—where traditional positioning systems fail. 
+ 
+This video demonstrates how VIO allows drones to navigate without GPS:
+
 VIO works by fusing two distinct types of data to determine the device's pose (position and orientation): 
  
 * Visual Odometry (VO): Cameras track features in the surrounding environment from frame to frame to estimate movement.
