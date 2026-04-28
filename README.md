@@ -63,13 +63,6 @@ If you are looking for raw aerial data to train your own custom VLA:
   * https://github.com/tii-racing/drone-racing-dataset
  
 ---
-### Overview of the VLA based aerial manipulation and Path Planning Architecture
-
-<img width="850" height="453" alt="image" src="https://github.com/user-attachments/assets/f269112f-4551-4ebd-93ae-a5af89a9365c" />
-
- 
-
----
 ## Core Concepts of VIO Navigation
 
 Visual-Inertial Odometry (VIO) camera navigation is a technology that combines data from cameras and Inertial Measurement Units (IMUs) to accurately track the position, orientation, and motion of a device in 3D space. It is essential for navigation in GPS-denied environments—such as indoors, underground, or under tree canopies—where traditional positioning systems fail. 
