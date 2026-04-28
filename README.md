@@ -25,7 +25,7 @@
 
 VIO works by fusing two distinct types of data to determine the device's pose (position and orientation): 
  
-Visual Odometry (VO): Cameras track features in the surrounding environment from frame to frame to estimate movement.
-Inertial Measurement Unit (IMU): Sensors like accelerometers and gyroscopes monitor motion, acceleration, and rotation rates.
-Sensor Fusion: Algorithms such asKalman filters integrate these inputs to compensate for each other's weaknesses, such as lighting issues (visual) or sensor bias/drift (inertial). 
+* Visual Odometry (VO): Cameras track features in the surrounding environment from frame to frame to estimate movement.
+* Inertial Measurement Unit (IMU): Sensors like accelerometers and gyroscopes monitor motion, acceleration, and rotation rates.
+* Sensor Fusion: Algorithms such asKalman filters integrate these inputs to compensate for each other's weaknesses, such as lighting issues (visual) or sensor bias/drift (inertial). 
  
