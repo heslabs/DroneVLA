@@ -35,25 +35,32 @@ You can find the resources for these specialized drone models below. Most of the
 This is the first VLA specifically designed for racing drones, converting FPV video and text into velocity and yaw commands. 
  
 * Project Page & Code: You can access the code and pretrained weights on the official RaceVLA Project Page.
-* Dataset: The training data, featuring human-piloted racing trajectories, is available on Hugging Face (RaceVLA_dataset). 
+* Dataset: The training data, featuring human-piloted racing trajectories, is available on Hugging Face (RaceVLA_dataset).
+  * https://huggingface.co/datasets/SerValera/RaceVLA_dataset
 
 ### UAV-VLA / UAV-VLPA (Mission Planning) 
 These systems focus on high-level mission generation and path planning using satellite imagery and natural language. 
  
 * Codebase: The official repository containing the framework implementation and simulation code is on GitHub at sautenich/uav-vla.
-* Benchmark: They utilize the UAV-VLPA-nano-30 benchmark, which consists of high-resolution satellite images for evaluating linguistic mission interpretation. 
+   * https://github.com/sautenich/uav-vla
+* Benchmark: They utilize the UAV-VLPA-nano-30 benchmark, which consists of high-resolution satellite images for evaluating linguistic mission interpretation.
+  * https://arxiv.org/html/2501.05014v2
  
 ### CognitiveDrone (Advanced Reasoning) 
 This model adds a reasoning module to handle complex logic before generating control signals. 
  
-* Resources: The model and its dedicated evaluation benchmark, CognitiveDroneBench, can be found in the CognitiveDrone GitHub/Hugging Face repository. 
+* Resources: The model and its dedicated evaluation benchmark, CognitiveDroneBench, can be found in the CognitiveDrone GitHub/Hugging Face repository.
+  * https://huggingface.co/datasets/ArtemLykov/CognitiveDrone_dataset
 
 
 ### Other Useful Datasets
 If you are looking for raw aerial data to train your own custom VLA:
 * Det-Fly: Over 13,000 images for UAV-to-UAV tracking and detection.
+  * https://github.com/Jake-WU/Det-Fly
 * WildUAV: High-resolution RGB and depth data for aerial perception tasks.
-* TII Drone Racing Dataset: Fully-annotated racing data for learning-based navigation. 
+  * https://github.com/hrflr/wuav
+* TII Drone Racing Dataset: Fully-annotated racing data for learning-based navigation.
+  * https://github.com/tii-racing/drone-racing-dataset
  
 ---
 ### Overview of the VLA based aerial manipulation and Path Planning Architecture
