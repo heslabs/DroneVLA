@@ -17,6 +17,13 @@ This repository includes:
 
 Many VLA and **VLN (Visual Language Navigation)** approaches require large datasets with paired language instructions and agent behavior, but struggle to generalize to new environments and lack a global-scale understanding. Our research focuses on developing systems that generate path plans and execute actions based solely on linguistic instructions and open satellite data, leveraging zero-shot capabilities of powerful models without additional training.
 
+Methodology
+In this paper, we present a novel UAV-VLA system that leverages Large Language Models (LLMs) and Vision Language Models (VLMs) for action prediction in aerial tasks. As shown in Fig. 1, the framework comprises three key modules: 
+* Goal extracting GPT module
+* Object search VLM module, and
+* Actions generation GPT module.
+
+
 ---
 ### The pipeline of the UAV-VLA system.
 
