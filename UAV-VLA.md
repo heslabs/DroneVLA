@@ -27,4 +27,4 @@ In this paper, we present a novel UAV-VLA system that leverages Large Language M
 ---
 ### The pipeline of the UAV-VLA system.
 
-<img width="550" height="850" alt="image" src="https://github.com/user-attachments/assets/51e0692d-ec8b-4b3f-bf3c-36e6474f96cb" />
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/51e0692d-ec8b-4b3f-bf3c-36e6474f96cb" />
