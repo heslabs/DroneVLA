@@ -1,6 +1,6 @@
 # Visual Language Maps (VLMaps) 
 
-Visual Language Maps (VLMaps) is a framework that allows robots to navigate through complex environments by fusing 3D physical data with semantic "understanding" from vision-language models. Unlike traditional maps that only know where obstacles are, a VLMap knows where specific objects (like "the blue sofa") are located in space.
+Visual Language Maps (VLMaps) is a framework that allows robots to navigate through complex environments by **fusing 3D physical data** with semantic "understanding" from vision-language models. Unlike traditional maps that only know where obstacles are, a VLMap knows where specific objects (like "the blue sofa") are located in space.
 * https://vlmaps.github.io/
 
 ---
