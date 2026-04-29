@@ -1,4 +1,4 @@
-# DroneVLA: VLA based Aerial Manipulation
+# DroneVLA: VLA for Drone and Robotic
 
 Vision-Language-Action (VLA) models represent a paradigm shift in drone navigation by enabling Unmanned Aerial Vehicles (UAVs) to generate direct control signals (like velocity and yaw commands) from **visual inputs and natural language instructions**. Unlike traditional systems that rely on separate modules for planning and execution, VLA-based navigation integrates perception and action into a single end-to-end framework. 
  
