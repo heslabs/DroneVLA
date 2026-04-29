@@ -8,9 +8,9 @@ Visual Language Maps (VLMaps) is a framework that allows robots to navigate thro
 The core innovation of VLMaps is its ability to create a "language-indexable" map of the world without requiring any manual labeling.
 
 * **Architecture**: It uses a vision-language model like LSeg to generate pixel-level embeddings from a robot's video feed. These embeddings are then "back-projected" onto a 3D reconstruction of the environment, essentially labeling the physical world with text-based features.
-* **Code as Policies**: VLMaps uses Large Language Models (LLMs) to translate natural language commands into executable Python code. For example, a command like "go in between the sofa and the TV" is converted into a structured sequence of spatial subgoals that the robot's navigation stack can follow.
+* **Code as Policies**: VLMaps uses Large Language Models (LLMs) to translate natural language commands into **executable Python code**. For example, a command like "go in between the sofa and the TV" is converted into a structured sequence of spatial subgoals that the **robot's navigation stack** can follow.
 * **Cross-Embodiment**: A single VLMap can be shared across different types of robots. A drone might use it to fly over a table, while a ground robot uses the same map to navigate around it by generating custom obstacle maps on-the-fly.
-* **Multimodal Expansion (AVLMaps)**: Extended versions like AVLMaps integrate audio and images, allowing robots to find targets based on sound (e.g., "go to where you heard the glass break").
+* **Multimodal Expansion (AVLMaps)**: Extended versions like AVLMaps integrate audio and images, allowing robots to find targets based on **sound** (e.g., "go to where you heard the glass break").
 
 ---
 ### Performance Metrics for AI Agents
