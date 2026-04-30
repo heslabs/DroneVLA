@@ -12,4 +12,4 @@
 | OS | Ubuntu | Ubuntu | Ubuntu | Pi OS (Ubuntu) |
 | ROS2 | Supported | Supported | Supported | Supported |
 | AI Tools | CUDA | [AI Hub](https://aihub.qualcomm.com/) | In-House | Halio |
-| AI Model Zomm | CUDA | [AI Hub](https://aihub.qualcomm.com/](https://aihub.qualcomm.com/models) | TBD | [Halio AI Zoo](https://github.com/hailo-ai/hailo_model_zoo) |
+| AI Model Zoo | CUDA | [AI Hub](https://aihub.qualcomm.com/models) | TBD | [Halio AI Zoo](https://github.com/hailo-ai/hailo_model_zoo) |
