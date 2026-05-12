@@ -25,7 +25,12 @@
 
 ---
 ### Radxa Dragon Q6A
-* Radxa Dragon Q6A
+
+* Qualcomm Dragonwing™ QCS6490 (Kryo CPU, 12TOPS NPU)
+  * https://www.qualcomm.com/internet-of-things/products/q6-series/qcs6490
+* Qualcomm RB3 Gen 2 Development Kits
+  * https://www.qualcomm.com/developer/hardware/rb3-gen-2-development-kit
+* Radxa Dragon Q6A (USD 100)
     * https://radxa.com/products/dragon/q6a/
 
 ---
